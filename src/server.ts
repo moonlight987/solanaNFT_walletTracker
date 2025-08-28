@@ -15,8 +15,8 @@ app.get('/', async (req, res) => {
     console.log(`Request isn't process: ${e}`);
     res.send(e);
   }
-});
-
+});    
+        
 // Router - fetch full data for individual nft on the wallet
 app.get('/nft', async (req, res) => {
   try {
