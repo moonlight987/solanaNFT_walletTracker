@@ -10,7 +10,7 @@ To install dependencies and run the application:
 yarn install
 yarn start
 ```
-
+ 
 ## Endpoints
 
 ### 1. Track NFTs in a Wallet
