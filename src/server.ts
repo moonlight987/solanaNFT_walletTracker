@@ -31,7 +31,7 @@ app.get('/nft', async (req, res) => {
     res.send(e);
   }
 });
-     
+        
 app.listen(port, () => {
   console.log(`server is listening on ${port}`);
   // func();
