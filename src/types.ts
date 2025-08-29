@@ -11,7 +11,7 @@ export class Creator {
       this.share = args.share;
     }
 }
-
+   
 export type AccountAndPubkey = {
     pubkey: string;
     account: AccountInfo<Buffer>;
